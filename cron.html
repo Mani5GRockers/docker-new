@@ -1,0 +1,2 @@
+0 3 * * * /opt/restart-live-torrent.sh >> /var/log/live-torrent-cron.log 2>&1
+0 3 * * * docker stop live-torrent && docker rm live-torrent && docker run -d --name live-torrent -p 8080:8080 --restart always davenchy/live-torrent>
