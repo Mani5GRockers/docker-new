@@ -1,0 +1,6 @@
+aa8bf64ce1f6   davenchy/live-torrent:latest                  "docker-entrypoint.s…"   17 hours ago   Up 17 hours   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp                                                        live-torrent
+b70d30a9b9b8   n8nio/n8n:latest                              "tini -- /docker-ent…"   4 days ago     Up 2 days     0.0.0.0:5678->5678/tcp, [::]:5678->5678/tcp                                                        n8n
+f2681b021351   anthonyzou/opentracker:latest                 "sh entrypoint.sh"       5 months ago   Up 2 days     80/tcp, 0.0.0.0:6969->6969/tcp, [::]:6969->6969/tcp, 0.0.0.0:1333->6969/udp, [::]:1333->6969/udp   opentracker2
+7bb9d7c7a367   lednerb/opentracker-docker:latest             "/bin/sh -c 'opentra…"   5 months ago   Up 20 hours   0.0.0.0:6969->6969/udp, [::]:6969->6969/udp, 0.0.0.0:1333->6969/tcp, [::]:1333->6969/tcp           opentracker
+0f7234079d0d   tnhnclskn/bittorrent-tracker:latest           "/bin/sh -c bittorre…"   5 months ago   Up 2 days     0.0.0.0:8000->8000/udp, [::]:8000->8000/udp, 0.0.0.0:1337->8000/tcp, [::]:1337->8000/tcp           bittorrent-tracker2
+b1aceb624e31   williamkray/opentracker-docker-proxy:latest   "/bin/sh -c 'opentra…"   5 months ago   Up 2 days     0.0.0.0:1337->6969/udp, 0.0.0.0:2710->6969/tcp, [::]:1337->6969/udp, [::]:2710->6969/tcp           opentracker-docker-proxy
